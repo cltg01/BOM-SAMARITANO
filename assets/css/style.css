@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-color: #f4f4f4;
     padding: 20px;
-    background-image: url('../../imagens/o-bom-samaritano.png');
+    background-image: url('/BOM-SAMARITANO/assets/imagens/o-bom-samaritano.png');
     background-repeat: no-repeat; /* Impede a repetição */
     background-size: cover;
     background-position: center;
