@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url(/assets/imagens/o-bom-samaritano.png);
+    background-repeat: no-repeat; /* Impede a repetição */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#game-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(83, 83, 0);;
+    max-width: 500px;
+    margin: auto;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+h2{
+    color: rgb(83, 83, 0);
+}
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: bottom center; /* Exibe a parte superior da imagem */
+    }
+    #game-container {
+        max-width: 90%; /* Faz o container ocupar 90% da tela em dispositivos móveis */
+        padding: 15px; /* Ajusta o padding em dispositivos móveis */
+    }
+    button {
+        width: 100%; /* Faz os botões ocuparem toda a largura disponível */
+        margin: 5px 0; /* Ajusta a margem entre os botões */
+    }
+}
