@@ -28,7 +28,7 @@ function escolherOpcao(opcao) {
         buttonsContainer.innerHTML = '<button onclick="escolherOpcao(5)">Pago o atendimento e o que ele necessitar</button>' +
                                      '<button onclick="escolherOpcao(-5)">Me recuso a pagar, pois preciso do dinheiro</button>';
     } else if (opcao === 5) {
-        storyText.innerHTML = "Excelente! O homem conseguiu atendimento. Parabéns, você salvou uma vida!";
+        storyText.innerHTML = "Excelente! O homem conseguiu atendimento. Parabéns, você salvou uma vida exercendo o seu papel de Cristão!";
         storyTexto.innerHTML =""
          storyTexto2.innerHTML =" "
         buttonsContainer.innerHTML = '<button onclick="reiniciarJogo()">Tentar novamente</button>';
