@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-color: #f4f4f4;
     padding: 20px;
-    background-image: url('/bom-samaritano/assets/imagens/o-bom-samaritano.png');
+    background-image: url(/bom-samaritano/assets/imagens/o-bom-samaritano.png);
     background-repeat: no-repeat; /* Impede a repetição */
     background-size: cover;
     background-position: center;
@@ -16,6 +16,10 @@ body {
     box-shadow: 0px 0px 10px rgb(83, 83, 0);;
     max-width: 500px;
     margin: auto;
+
+}
+#story-text{
+    color:rgb(83, 83, 0);
 }
 button {
     margin: 10px;
@@ -25,12 +29,13 @@ button {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    text-justify:auto;
 }
 button:hover {
     background: #0056b3;
 }
 h2{
-    color: rgb(83, 83, 0);
+    color: black;
 }
 @media (max-width: 768px) {
     body {
